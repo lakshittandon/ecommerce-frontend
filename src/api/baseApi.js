@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 export const baseApi = createApi({
   reducerPath: "api",
   baseQuery: fetchBaseQuery({
-    baseUrl: "iVITE_API_BASE_URL", // 🔧 adjust if backend URL differs
+    baseUrl: "VITE_API_BASE_URL", // 🔧 adjust if backend URL differs
     credentials: "include", // send cookies automatically
   }),
   tagTypes: ["Product", "Order", "User"],
