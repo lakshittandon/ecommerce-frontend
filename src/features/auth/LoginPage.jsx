@@ -96,7 +96,7 @@ export default function LoginPage() {
         <h3 style={{ margin: "0 0 .5rem 0" }}>Demo credentials</h3>
         <p style={{ margin: 0 }}>
           Admin&nbsp;dashboard:&nbsp;
-          <code>user@gmail.com</code> / <code>user1user1</code>
+          <code>user@gmail.com</code> / <code> PASSWORD : user1user1</code>
         </p>
         <hr style={{ margin: ".75rem 0" }} />
         <p style={{ margin: 0 }}>
